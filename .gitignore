@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+[Dd]ist/
+[Bb]uild/
+task.txt
+flow-typed/
+.vscode/
+.idea/
+.compiled/
