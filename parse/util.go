@@ -14,6 +14,8 @@ func robustHTTPGet(uri string) (string, error) {
 			return "", err
 		}
 
+		defer response.Body.Close()
+
 		if response.StatusCode == 404 {
 			continue
 		}
